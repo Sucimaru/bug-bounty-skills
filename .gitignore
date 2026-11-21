@@ -1,0 +1,11 @@
+# Never commit credentials or local environment files
+.env
+*.env
+roles.env
+*.pem
+*.key
+id_rsa*
+*secret*
+*credentials*
+__pycache__/
+*.pyc
